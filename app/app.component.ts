@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
         <div><label>id: </label>{{hero.id}}</div>
         <div>
             <label>name: </label>
-            <input value="{{hero.name}}" placeholder="name">
+            <input [(ngModel)]="hero.name" placeholder="name">
         </div>
   `
 
