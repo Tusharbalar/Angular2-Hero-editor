@@ -16,7 +16,7 @@ import { HeroService } from './hero.service';
     </ul>
     <my-hero-detail [hero]="selectedHero"></my-hero-detail>
   `,
-  providers: [HeroService],
+  // providers: [HeroService],
   styles: [`
     .selected {
       background-color: #CFD8DC !important;
