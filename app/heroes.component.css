@@ -8,6 +8,20 @@
   padding: 0;
   width: 15em;
 }
+input {
+  height: 2em;
+  font-size: 1em;
+  padding-left: .4em;
+}
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 9px 20px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
 .heroes li {
   cursor: pointer;
   position: relative;
