@@ -13,14 +13,12 @@ input {
   font-size: 1em;
   padding-left: .4em;
 }
-button {
-  margin-top: 20px;
-  font-family: Arial;
-  background-color: #eee;
-  border: none;
-  padding: 9px 20px;
-  border-radius: 4px;
-  cursor: pointer; cursor: hand;
+button.delete {
+  float:right;
+  margin-top: 2px;
+  margin-right: .8em;
+  background-color: gray !important;
+  color:white;
 }
 .heroes li {
   cursor: pointer;
